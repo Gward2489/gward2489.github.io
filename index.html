@@ -1,32 +1,35 @@
 <html>
     <head>
         <title>Welcome to my personal site</title>
-        <link href="styles.css" rel="stylesheet">
+        <link href="./css/index-styles.css" rel="stylesheet">
+        <link href="./css/styles.css" rel="stylesheet">
     </head>
 
-    <body>
-        <nav>
-            <ul class = "navStyle">
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="resume.html">Resume</a></li>
-            </ul>
-        </nav>
+    <body class="datGrid">
+        <header class="headerGrid">    
+            <nav class="navGrid" id="navLocation">
+            </nav>
+        </header>
 
-        <h1>Welcome to my personal page</h1>
+        <main class="mainGrid">
+            <section class="mainContentGrid">
+                <h1>Welcome to my personal page</h1>
+                
+                    <article>
+                       I'm Garrett Ward, a software development student at Nashville Software School.
+                    </article>
+                
+                    <article>
+                       I graduated from The University of North Carolina at Wilmington in 2012 with a degree in Environmental Studies. 
+                       I moved to Nashville in 2013 to pursue music. Now I am learning how to become a software designer.
+                    </article>
+            </section>
+        </main>
     
-         <article id="intro" class="article">
-            I'm Garrett Ward, a software development student at Nashville Software School.
-         </article>
-
-         <article id="history" class="article">
-            I graduated from The University of North Carolina at Wilmington in 2012 with a degree in Environmental Studies. 
-            I moved to Nashville in 2013 to pursue music. Now I am learning how to become a software designer.
-         </article>
-    </body>
-    
-    <footer class="footer">
+    <footer class="footerGrid">
         Thanks for stopping by, and remember to party on, excellent. 
     </footer>
+    <script src="./js/nav-factory.js"></script>
+    <script src="./js/nav-controller.js"></script>
+    </body>
 </html>

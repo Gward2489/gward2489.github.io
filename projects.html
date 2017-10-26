@@ -1,26 +1,28 @@
 <html>
     <head>
         <title>Projects</title>
-        <link href="styles.css" rel="stylesheet">
+        <link href="./css/index-styles.css" rel="stylesheet">
+        <link href="./css/styles.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="datGrid">
+        <header class="headerGrid">    
+            <nav class="navGrid" id="navLocation">
+            </nav>
+        </header>
 
-        <ul class = "navStyle">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="resume.html">Resume</a></li>
-        </ul>
-        
-        <div id="projectsId">
-            
-        </div>
+        <main class="mainGrid">
+            <section id="projectsId" class="mainContentGrid">
 
-        <footer class="footer">
-                Thanks for stopping by, and remember to party on, excellent. 
-        </footer>
-    <script src="projects-factory.js"></script>
-    <script src="projects-controller.js"></script>
+            </section>
+        </main>
+    
+    <footer class="footerGrid">
+        Thanks for stopping by, and remember to party on, excellent. 
+    </footer>
+    <script src="./js/projects-factory.js"></script>
+    <script src="./js/projects-controller.js"></script>
+    <script src="./js/nav-factory.js"></script>
+    <script src="./js/nav-controller.js"></script>
     </body>
 </html>
