@@ -63,8 +63,6 @@ blogs.slice(0 , itemsPerPage).forEach(function (blog){
 })
 
 
-
-
 //use a 'for loop' method to add event listeners that will execute a function to
 //display the desired blogs on the page
 for (i = 0; i < blogLinks.length; i++) {
