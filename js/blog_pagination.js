@@ -48,7 +48,7 @@ previousArrowMarker.className = "hide"
 
 //define the variables for 'currentClick' and 'currentPage' outstide of the scope
 //of the functions so their values may be passed between the functions
-let currentClick = ""
+let currentClick = 1
 let currentPage = 1
 
 //slice the desired amount of initial blog articles from the blog array
