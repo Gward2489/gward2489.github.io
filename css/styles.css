@@ -7,7 +7,7 @@ body {
 .datGrid {
     display: grid;
     min-height: 100vh;
-    grid-template-rows: 50px 1fr 50px;
+    grid-template-rows: 50px auto 50px;
     grid-template-areas: 
     "header"
     "main"
@@ -41,7 +41,7 @@ body {
 
 .navGrid {
     display: grid;
-    grid-template-columns: 20% 1fr 1fr 1fr 1fr 1fr 20%;
+    grid-template-columns: 20% auto auto auto auto auto 20%;
     grid-area: navBar;
     grid-template-areas:
     "empty home blog projects contact resume emptyTwo";
