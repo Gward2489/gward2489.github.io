@@ -1,30 +1,30 @@
 let homeTab = {
     "tabName": "Home",
-    "linkName": "./index.html",
+    "linkName": "../index.html",
     "className": "homeNav"
 }
 
 let blogTab = {
     "tabName": "Blog",
-    "linkName": "./blog.html",
+    "linkName": "../blog/index.html",
     "className": "blogNav"
 }
 
 let projectTab = {
     "tabName": "Projects",
-    "linkName": "./projects.html",
+    "linkName": "../projects/index.html",
     "className": "projectNav"
 }
 
 let resumeTab = {
     "tabName": "Resume",
-    "linkName": "./resume.html",
+    "linkName": "../resume/index.html",
     "className": "resumeNav"
 }
 
 let contactTab = {
     "tabName": "Contact",
-    "linkName": "./contact.html",
+    "linkName": "../contact/index.html",
     "className": "contactNav"
 }
 
