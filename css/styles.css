@@ -74,21 +74,5 @@ body {
     grid-area: resume;
 }
 
-/*Pagination Styles*/
 
-#previous_arrow {
-    text-decoration: none;
-}
-
-#next_arrow {
-    text-decoration: none;
-}
-
-.hide {
-    display: none;
-}
-
-.chill_link {
-    text-decoration: none;
-}
 

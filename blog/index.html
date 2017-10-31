@@ -3,6 +3,7 @@
         <title>Blog</title>
         <link href="../css/index-styles.css" rel="stylesheet">
         <link href="../css/styles.css" rel="stylesheet">
+        <link href="../blog/styles/blog-search-styles.css" rel="stylesheet">
     </head>
 
     <body class="datGrid">
@@ -12,12 +13,18 @@
         </header>
 
         <main class="mainGrid">
-            <section id="blogId" class="mainContentGrid">
-
-            </section>
-            <section id="pagination_footer">
-                
-            </section>
+            <div class="blogDivGrid">
+                <section class="searchBlogs">
+                    <textarea id="blogSearchConditions">Search for blog entries,
+                        enter at least three characetrs.
+                    </textarea>
+                    <button id="searchBlogButton">search</button>
+                </section>    
+                <section id="blogId">
+                </section>
+                <section id="pagination_footer">
+                </section>
+            </div>
         </main>
     
     <footer class="footerGrid">
@@ -28,5 +35,6 @@
     <script src="../js/nav-factory.js"></script>
     <script src="../js/nav-controller.js"></script>
     <script src="../blog/scripts/blog_pagination.js"></script>
+    <script src="../blog/scripts/blog-search.js"></script>
     </body>
 </html>

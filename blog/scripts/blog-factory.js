@@ -47,7 +47,7 @@ if (JSON.parse(localStorage.getItem("blogs")) === null) {
     
     let blogTen = {
         "date": "October 25th, 2018",
-        "text": "This is day after my birthday. I am loving NSS but, apparently, that is soon to change."
+        "text": "This is the day after my birthday. I am loving NSS but, apparently, that is soon to change."
     }
     
     let blogEleven = {
