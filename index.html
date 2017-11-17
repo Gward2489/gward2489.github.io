@@ -1,35 +1,40 @@
 <html>
     <head>
         <title>Welcome to my personal site</title>
-        <link href="./css/index-styles.css" rel="stylesheet">
-        <link href="./css/styles.css" rel="stylesheet">
+        <link href="./styles/base-styles.css" rel="stylesheet">
     </head>
+    <body class="bodyGrid">
+        <header class="headerGrid">
+            <nav>
+                <ul id="navigationLinks">
 
-    <body class="datGrid">
-        <header class="headerGrid">    
-            <nav class="navGrid" id="navLocation">
+                </ul>
             </nav>
         </header>
-
         <main class="mainGrid">
-            <section class="mainContentGrid">
-                <h1>Welcome to my personal page</h1>
-                
-                    <article>
-                       I'm Garrett Ward, a software development student at Nashville Software School.
-                    </article>
-                
-                    <article>
-                       I graduated from The University of North Carolina at Wilmington in 2012 with a degree in Environmental Studies. 
-                       I moved to Nashville in 2013 to pursue music. Now I am learning how to become a software designer.
-                    </article>
+            <section id="home" class="homeGrid">
+                Welcome
+            </section>
+
+            <section id="blog" class="blogGrid hidden">
+                Blogs
+            </section>
+
+            <section id="projects" class="projectGrid hidden">
+                Projects                                                
+            </section>
+
+            <section id="resume" class="resumeGrid hidden">
+                Resume
+            </section>
+
+            <section id="contact" class="contactGrid hidden">
+                Contact
             </section>
         </main>
-    
-    <footer class="footerGrid">
-        Thanks for stopping by, and remember to party on, excellent. 
-    </footer>
-    <script src="./js/nav-factory.js"></script>
-    <script src="./js/nav-controller.js"></script>
+        <footer class="footerGrid">
+            BYE
+        </footer>
+        <script src = "./build/bundle.js"></script>
     </body>
 </html>

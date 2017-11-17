@@ -1,0 +1,35 @@
+/* Basic Grid Declarations */
+
+.bodyGrid {
+    display: grid;
+    grid-template-rows: 10% 500px 10%;
+    background-color: rgb(15, 15, 15); 
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+.headerGrid {
+    display: grid;
+    grid-area: header;
+    background-color: lightskyblue;
+}
+
+.mainGrid {
+    display: grid;
+    grid-area: main;
+    background-color: rgba(211, 211, 211,.68);
+}
+
+.footerGrid {
+    display: grid;
+    grid-area: footer;
+    background-color: lightskyblue;
+}
+
+/* Hide Class */
+
+.hidden {
+    visibility: hidden;
+}

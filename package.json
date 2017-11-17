@@ -1,0 +1,40 @@
+{
+  "name": "personalsite",
+  "version": "1.0.0",
+  "description": "Garrett Ward's personal site experiment for cohort 22",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gward2489/gward2489.github.io.git"
+  },
+  "keywords": [
+    "nss",
+    "personal",
+    "site",
+    "garrett",
+    "awesome"
+  ],
+  "author": "Garrett Ward <gww8804@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gward2489/gward2489.github.io/issues"
+  },
+  "homepage": "https://github.com/Gward2489/gward2489.github.io#readme",
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^20.1.0"
+  },
+  "dependencies": {
+    "browserify": "^14.5.0",
+    "grunt-browserify": "^5.2.0"
+  }
+}

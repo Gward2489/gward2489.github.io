@@ -1,7 +1,0 @@
-.mainContentGrid {
-    display: grid;
-    background-color: black;
-    grid-area: content;
-    color: rgba(253, 245, 197, 0.8); 
-    text-align: center;
-}
